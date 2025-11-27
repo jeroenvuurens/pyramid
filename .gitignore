@@ -1,6 +1,10 @@
-# Allow all Python and Jupyter Notebook files
+# Ignore everything
+*
+
+# But not these files
 !*.py
 !*.ipynb
 !.gitignore
-# Ignore everything else
-*
+!*/
+!**/*.py
+!**/*.ipynb
